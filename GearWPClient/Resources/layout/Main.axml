@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView1">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <ImageButton
+                android:layout_width="142px"
+                android:layout_height="142px"
+                android:layout_marginTop="12px"
+                android:layout_marginLeft="12px"
+                android:padding="0px"
+                android:src="@drawable/Tile_Blue_Phone"
+                android:layout_column="0"
+                android:id="@+id/tilePhone" />
+            <ImageButton
+                android:layout_width="142px"
+                android:layout_height="142px"
+                android:layout_marginTop="12px"
+                android:layout_marginLeft="12px"
+                android:padding="0px"
+                android:src="@drawable/Tile_Blue_Mail"
+                android:id="@+id/tileMail" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <ImageButton
+                android:layout_width="142px"
+                android:layout_height="142px"
+                android:layout_marginTop="12px"
+                android:layout_marginLeft="12px"
+                android:padding="0px"
+                android:src="@drawable/Tile_Blue_Calendar"
+                android:layout_column="0"
+                android:id="@+id/tileCalendar" />
+            <ImageButton
+                android:layout_width="142px"
+                android:layout_height="142px"
+                android:layout_marginTop="12px"
+                android:layout_marginLeft="12px"
+                android:padding="0px"
+                android:src="@drawable/Tile_Blue_Headphones"
+                android:id="@+id/tileHeadphones" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <ImageButton
+                android:layout_width="142px"
+                android:layout_height="142px"
+                android:layout_marginTop="12px"
+                android:layout_marginLeft="12px"
+                android:padding="0px"
+                android:src="@drawable/Tile_Blue_Camera"
+                android:layout_column="0"
+                android:id="@+id/tileCamera" />
+            <ImageButton
+                android:layout_width="142px"
+                android:layout_height="142px"
+                android:layout_marginTop="12px"
+                android:layout_marginLeft="12px"
+                android:padding="0px"
+                android:src="@drawable/Tile_Blue_Photos"
+                android:id="@+id/tilePhotos" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+            <ImageButton
+                android:layout_width="142px"
+                android:layout_height="142px"
+                android:layout_marginTop="12px"
+                android:layout_marginLeft="12px"
+                android:layout_marginBottom="12px"
+                android:padding="0px"
+                android:src="@drawable/Tile_Blue_Weather"
+                android:layout_column="0"
+                android:id="@+id/tileWeather" />
+            <ImageButton
+                android:layout_width="142px"
+                android:layout_height="142px"
+                android:layout_marginTop="12px"
+                android:layout_marginLeft="12px"
+                android:layout_marginBottom="12px"
+                android:padding="0px"
+                android:src="@drawable/Tile_Blue_Settings"
+                android:id="@+id/tileSettings" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
